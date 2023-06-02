@@ -1,0 +1,19 @@
+[gd_scene load_steps=5 format=3 uid="uid://bp23vmeuj14f2"]
+
+[ext_resource type="PackedScene" uid="uid://bw6vs3rgsjrmk" path="res://player.tscn" id="1_b4ni1"]
+[ext_resource type="Script" path="res://agent.gd" id="1_xclcd"]
+[ext_resource type="PackedScene" uid="uid://bl412g7bejrye" path="res://cargo.tscn" id="2_77yow"]
+[ext_resource type="PackedScene" uid="uid://ub02v8kc5kq6" path="res://sling.tscn" id="4_knnn5"]
+
+[node name="Agent" type="Node2D"]
+script = ExtResource("1_xclcd")
+metadata/_edit_group_ = true
+
+[node name="Player" parent="." instance=ExtResource("1_b4ni1")]
+
+[node name="Cargo" parent="." instance=ExtResource("2_77yow")]
+position = Vector2(2.08165e-12, 100)
+
+[node name="Sling" parent="." node_paths=PackedStringArray("target_a", "target_b") instance=ExtResource("4_knnn5")]
+target_a = NodePath("../Player")
+target_b = NodePath("../Cargo")

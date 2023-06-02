@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://ub02v8kc5kq6"]
+
+[ext_resource type="Script" path="res://sling.gd" id="1_pv3u8"]
+
+[node name="Sling" type="Node"]
+script = ExtResource("1_pv3u8")

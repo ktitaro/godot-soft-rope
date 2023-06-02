@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://nhxrb1rad6yg"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_1t1c1"]
+radius = 2.0
+height = 8.0
+
+[node name="Chain" type="RigidBody2D"]
+collision_layer = 0
+collision_mask = 0
+gravity_scale = 0.1
+linear_damp = 1.5
+metadata/_edit_group_ = true
+
+[node name="Shape" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_1t1c1")
+
+[node name="Pin" type="PinJoint2D" parent="Shape"]
+position = Vector2(2.08165e-12, 4)
+disable_collision = false
+softness = 0.1

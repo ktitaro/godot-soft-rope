@@ -1,0 +1,14 @@
+fc8a56933c4b1c8d796fdb8f7a9f9475
+::res://::1685668121
+agent.tscn::PackedScene::3496729752473875097::1685668116::0::1::::<><>::uid://bw6vs3rgsjrmk<>uid://bl412g7bejrye<>uid://ub02v8kc5kq6
+cargo.gd::GDScript::-1::1685666196::0::1::::<>RigidBody2D<>::
+cargo.tscn::PackedScene::3219992141451548192::1685668116::0::1::::<><>::res://cargo.gd
+chain.gd::GDScript::-1::1685667226::0::1::::<>RigidBody2D<>::
+chain.tscn::PackedScene::928332554363673066::1685668116::0::1::::<><>::res://chain.gd
+icon.svg::CompressedTexture2D::3601104303762691158::1685652811::1685652815::1::::<><>::
+player.gd::GDScript::-1::1685666163::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::3995879652456569934::1685668116::0::1::::<><>::res://player.gd
+sling.gd::GDScript::-1::1685668097::0::1::::<>Node<>::
+sling.tscn::PackedScene::1407408546196418167::1685668116::0::1::::<><>::res://sling.gd
+world.gd::GDScript::-1::1685658327::0::1::::<>Node2D<>::
+world.tscn::PackedScene::6073458831440580345::1685668116::0::1::::<><>::res://world.gd<>uid://bp23vmeuj14f2
