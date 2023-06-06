@@ -1,11 +1,4 @@
-res://sling.tscn
-res://sling.gd
-res://world.tscn
-res://agent.tscn
-res://player.tscn
-res://cargo.tscn
 res://chain.tscn
-res://agent.gd
-res://world.gd
-res://player.gd
-res://cargo.gd
+res://sling.tscn
+res://cargo.tscn
+res://world.tscn
